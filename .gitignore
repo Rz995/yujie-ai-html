@@ -1,7 +1,4 @@
-# Large media files
-*.mp4
-*.MOV
-*.mov
+# Large archives
 *.zip
 *.pdf
 
