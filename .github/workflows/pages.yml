@@ -33,6 +33,11 @@ jobs:
           cp *.jpg _site/ 2>/dev/null || true
           cp *.png _site/ 2>/dev/null || true
           cp *.svg _site/ 2>/dev/null || true
+          cp *.mp4 _site/ 2>/dev/null || true
+          cp *.MOV _site/ 2>/dev/null || true
+          cp *.mov _site/ 2>/dev/null || true
+          cp *.webm _site/ 2>/dev/null || true
+          cp *.md _site/ 2>/dev/null || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
